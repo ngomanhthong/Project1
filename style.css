@@ -507,12 +507,12 @@
 }
 footer{
     width: 100%;
-    padding: 1.5rem 0rem;
+    padding: 1.5rem 1rem;
     font-size: 20px;
     display: flex;
 }
 footer .title-footer{
-    margin-left: 1rem;
+    width: 50%;
 }
 footer .title-footer a,li{
     text-decoration: none;
@@ -527,13 +527,17 @@ footer .title-footer li{
     padding: 0.3rem 0;
 }
 footer .content-footer{
-    padding-left: 63rem;
+    padding-left: 40%;
     padding-top: 3.2rem;
 }
+.content-footer p{
+    width: 150px;
+}
 .button-footer{
-padding: 2.6rem 2.2rem;
+    padding: 2.6rem 2.2rem;
 }
 .button-footer button{
+    width: 108px;
     font-size: 16px;
     font-weight: bold;
     color: white;
@@ -544,6 +548,34 @@ padding: 2.6rem 2.2rem;
     --tw-bg-opacity: 1;
     background-color: rgb(79 70 229/var(--tw-bg-opacity));
 }
+
+@media (max-width:1366px){
+    .card-1:hover .view{
+        transform: translateX(451%);
+    }
+}
+@media (min-width:1367px) and (max-width:1600px){
+    .card-1:hover .view{
+        transform: translateX(451%);
+    }
+}
+@media (min-width:1601px) and (max-width:1920px){
+    .card-1:hover .view{
+        transform: translateX(561%);
+    }
+}
+@media (min-width:1921px){
+    .card-1:hover .view{
+        transform: translateX(715%);
+    }
+}
+@media (max-width:2300px){
+    .card-1:hover .view{
+        transform: translateX(706%);
+    }
+}
+
+
 
 
 
