@@ -553,25 +553,38 @@ footer .content-footer{
     .card-1:hover .view{
         transform: translateX(451%);
     }
+    .title-dad .menu .menu-1{
+        left: 51%;
+    }
 }
 @media (min-width:1367px) and (max-width:1600px){
     .card-1:hover .view{
         transform: translateX(451%);
     }
+    
 }
 @media (min-width:1601px) and (max-width:1920px){
     .card-1:hover .view{
         transform: translateX(561%);
+    }
+    .title-dad .menu .menu-1{
+        left: 53%;
     }
 }
 @media (min-width:1921px){
     .card-1:hover .view{
         transform: translateX(715%);
     }
+    .title-dad .menu .menu-1{
+        left: 54.5%;
+    }
 }
 @media (max-width:2300px){
     .card-1:hover .view{
         transform: translateX(706%);
+    }
+    .title-dad .menu .menu-1{
+        left: 68%;
     }
 }
 
