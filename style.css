@@ -48,18 +48,24 @@
     width: 100%;
     display: flex;
 }
+.img-shop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .container-right .search .img-shop img{
-    width: 7.5rem;
+    width: 100%;
+    padding: 0.1rem;
 }
 .container-right .search .search-1{
-    width: 85.6%;
+    width: 90%;
 }
 .container-right .search .search-1 input{
     width: 99%;
-    height: 50px;
+    height: auto;
     border-radius: 40px;
     border: none;
-    padding: 0 4rem;
+    padding: 0.9rem 3rem;
     font-size: 17px;
     border: 1px solid #c7c7c7;
 }
