@@ -165,10 +165,9 @@
     border: 1px solid #c7c7c7;
 }
 .title-dad .menu .menu-1{
-    width: 32%;
+    width: 100%;
     display: flex;
-    position: relative;
-    left: 68%;
+    justify-content: right;
 }
 .title-dad .menu-1 div{
     margin: 10px;
@@ -262,15 +261,16 @@
     display: flex;
 }
 .hot-styles .title h1{
-    width: 90%;
+    width: 70%;
 }
 .hot-styles .title .more-styles{
-    width: 10%;
-    text-align: center;
+    width: 30%;
     font-size: 20px;
     padding: 4px;
+    padding-left: 0.6rem;
     font-weight: bold;
     display: flex;
+    justify-content: right;
 }
 .hot-styles .title .more-styles a{
     text-decoration: none;
@@ -301,6 +301,7 @@
     padding: 1rem 0;
     border-radius: 15px;
     cursor: pointer;
+    position: relative;
 }
 .hot-styles .card .card-1 .computer{
     width: 100%;
@@ -420,7 +421,7 @@
     width: 65px;
     position: absolute;
     background-color: rgb(94, 91, 252);
-    transform: translateX(477px);
+    right: -5px;
     padding: 0.5rem;
     border-radius: 10px 0px 0px 10px;
     z-index: 1;
@@ -431,9 +432,9 @@
     margin: 4px;
 }
 .card-1:hover .view{
-    transform: translateX(460px);
-    transition: 0.3s;
+    transition: 0.5s;
     opacity: 1;
+    right: 0px;
 }
 .number-menu{
     width: 33.3333333%;
@@ -547,45 +548,6 @@ footer .content-footer{
     cursor: pointer;
     --tw-bg-opacity: 1;
     background-color: rgb(79 70 229/var(--tw-bg-opacity));
-}
-
-@media (max-width:1366px){
-    .card-1:hover .view{
-        transform: translateX(451%);
-    }
-    .title-dad .menu .menu-1{
-        left: 51%;
-    }
-}
-@media (min-width:1367px) and (max-width:1600px){
-    .card-1:hover .view{
-        transform: translateX(451%);
-    }
-    
-}
-@media (min-width:1601px) and (max-width:1920px){
-    .card-1:hover .view{
-        transform: translateX(561%);
-    }
-    .title-dad .menu .menu-1{
-        left: 53%;
-    }
-}
-@media (min-width:1921px){
-    .card-1:hover .view{
-        transform: translateX(715%);
-    }
-    .title-dad .menu .menu-1{
-        left: 54.5%;
-    }
-}
-@media (max-width:2300px){
-    .card-1:hover .view{
-        transform: translateX(706%);
-    }
-    .title-dad .menu .menu-1{
-        left: 68%;
-    }
 }
 
 
