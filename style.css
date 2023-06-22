@@ -639,7 +639,131 @@ footer .content-footer{
 .san-pham .review .review-1 .icon i{
     font-size: 25px;
 }
+.container-right .number-menu-1{
+    display: none;
+    text-align: center;
+    padding: 1rem 0;
+    border-top: 1px solid  #c7c7c7;
+    width: 50%;
+    margin: 0px auto;
+    margin-top: 3rem;
+    padding-bottom: 3rem;
+}
+.container .number-menu-1 button{
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid  #c7c7c7;
+    background-color: white;
+}
+.container-reponsive{
+    display: none;
+}
+@media (max-width:360px){
+    .container-left{
+        display: none;
+    }
+    .container-right{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    .container-right .search{
+        display: none;
+    }
+    .container-right .menu-shop{
+        display: none;
+    }
+    .container-right .menu .menu-1{
+        display: inline-block;
+    }
+    .container-right .menu .menu-1 div{
+        display: inline-block;
+        margin: 0.5rem;
+    }
+    .container-advertisement{
+        display: none;
+    }
+    .container-right .hot-styles .title .more-styles{
+        width: 50%;
+    
+    }
+    .container-right .hot-styles .title .more-styles  div *{
+        width: 100%;
+        font-size: 15px;
+    }
+    .container-right .hot-styles .more-styles div i {
+        margin-top: 8px;
+    }
+    .container-right .hot-styles .title h1{
+        width: 50%;
+    }
+    .container-right .card{
+        display: inline;
+    }
+    .container-right .card .card-1{
+       margin: 1rem 0;
+    }
+    .container-right .number-menu{
+        display: none;
+    }
+    .container-right .number-menu-1{
+        display: block;
+    }
+    footer .title-footer{
+        display: none;
+    }
+    footer .content-footer,.button-footer{
+        padding: 1rem;
+    }
+    .button-footer{
+        margin-top: -10px;
+    }
+    .container-reponsive{
+        display: block;
+        display: flex;
+        align-items: center;
+        border-bottom: 2px solid #c7c7c7;
+        padding-bottom: 1rem;
+    }
+    .container-reponsive .title{
+        margin: 0px auto;
+    }
+    .container-reponsive .menu{
+        position: absolute;
+       left: 1;
+       cursor: pointer;
+    }
+    .container-reponsive .search-1{
+       width: 10%;
+       position: absolute;
+       right: 0;
+       cursor: pointer;
+    }
+    .title-dad .title i:hover{
+        background-color: white;
+    }
+    .container-right .san-pham .container-title .title{
+        display: inline-block;
+        padding: 1rem 0;
+        
+    }
+    .container-right .san-pham .container-title .title h1{
+        width: 100%;
+        font-size: 15px !important;
+    }
+    .container-right .san-pham .container-title .title .more-styles{
+        width: 100%;
+        justify-content: center;
+    }
+    .container-right .san-pham .add {
+        width: 100%;
+        padding: 0;
+    }
+    .container-right .san-pham .add .add-themer {
+        margin: 0px auto;
+    }
 
+}
 
 
 
