@@ -10,5 +10,10 @@ next.addEventListener('click', function(){
 function anMenu(){
     menuTitleDad.classList.toggle('menu-dad')
 } 
+
+function san_pham(index) {
+    window.location.href = "San_pham_" + index + ".html";
+  }
+  
      
 

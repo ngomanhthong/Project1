@@ -266,6 +266,7 @@
     padding: 1rem;
     display: flex;
 }
+
 .hot-styles .title h1{
     width: 70%;
 }
@@ -306,11 +307,11 @@
     border: 1px solid #c7c7c7;
     padding: 1rem 0;
     border-radius: 15px;
-    cursor: pointer;
     position: relative;
 }
 .hot-styles .card .card-1 .computer{
     width: 100%;
+    cursor: pointer;
 }
 .hot-styles .card .card-1 .computer .computer-1{
     width: 85%;
@@ -320,6 +321,7 @@
     padding: 0 0.2rem;
     padding-top: 0.2rem;
     border: 2px solid rgb(209 213 219/var(--tw-bg-opacity));
+    cursor: pointer;
 }
 .hot-styles .card .card-1 .computer .computer-1 .computer-1-1{
     width: 100% ;
@@ -554,6 +556,88 @@ footer .content-footer{
     cursor: pointer;
     --tw-bg-opacity: 1;
     background-color: rgb(79 70 229/var(--tw-bg-opacity));
+}
+.san-pham .add{
+    padding: 0 4rem;
+}
+.san-pham .container-title{
+    padding: 0 3rem;
+}
+.san-pham .add-themer{
+    width: 100px;
+    border: 1px solid #c7c7c7;
+    display: flex;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    
+}
+.san-pham .add-themer .logo{
+   padding: 0 0.5rem;
+}
+.san-pham .add-themer .title{
+    border-left: 1px solid  #c7c7c7;
+    padding: 0.5rem 1rem;
+}
+.san-pham .card .card-1{
+    width: 100%;
+     border: none;
+}
+.san-pham .card .card-1 .computer{
+    width: 100%;
+}
+.san-pham .card .card-1 .computer .computer-1{
+    width: 93%;
+}
+.san-pham .card .card-1 .computer .computer-1 .computer-1-1{
+    width: 100% ;
+    height: 100%;
+}
+.san-pham .card .card-1 .computer .computer-1 .computer-1-1 .size{
+    overflow: hidden;
+}
+.san-pham .card .card-1 .computer .computer-1 .computer-1-1 img{
+    width: 100%;
+    cursor: pointer;
+    transition: 0.3s;
+    padding: 0 0.5rem;
+    padding-top: 0.5rem;
+
+}
+.san-pham .card .card-1 .computer .computer-1 .computer-1-1 img:hover{
+    transform: scale(1.1);
+}
+.san-pham .card .card-1 .computer .computer-2{
+    width: 100%; 
+    height: 1.5rem;
+}
+.san-pham .card .card-1 .computer .computer-2 .computer-2-1{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(209 213 219/var(--tw-bg-opacity));
+    border-radius: 0px 0px 15px 15px;
+    border: 2px solid rgb(209 213 219/var(--tw-bg-opacity));
+}
+.san-pham .card .card-1 .computer .computer-1 .computer-1-1 img:hover{
+    transform: scale(1);
+}
+.san-pham .review{
+    padding: 0 2rem;
+    padding-bottom: 4rem;
+}
+.san-pham .review .review-1{
+    padding-bottom: 1rem;
+}
+.san-pham .review .review-1 h1{
+    text-decoration: underline;
+}
+.san-pham .review .review-1 p{
+    margin: 1rem 0;
+    font-size: 18px;
+}
+.san-pham .review .review-1 .icon i{
+    font-size: 25px;
 }
 
 
