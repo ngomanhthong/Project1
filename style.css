@@ -730,6 +730,9 @@ footer .content-footer{
     .container-right .number-menu-1{
         display: block;
     }
+    .hot-styles .icon img{
+        width: 90%;
+    }
     footer .title-footer{
         display: none;
     }
